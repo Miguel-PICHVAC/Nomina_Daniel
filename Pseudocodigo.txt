@@ -1,0 +1,51 @@
+
+Pseudo Codigo
+
+INICIO
+
+VAR: menu:ENTERO
+
+Imprimir"EMPRESAS FICTICIAS SA DE CV"
+Imprimir"***RECIBO DE NOMINA***"
+Imprimir"CALLE IMAGINARIA No. 44 Int. LOC 1, Col CENTRO"
+Imprimir"CUAUHTEMOC, CIUDAD DE MEXICO, MEXICO, C.P. 00000"
+Imprimir"RFC: FUL12431245"
+Imprimir"General de Ley Personas Morales\nRegistro Patronal IMSS: FSD12539812"
+Imprimir"No. Trab.: " 4 saltos tabulador "Depto: "
+Imprimir"Nombre: " 4 saltos tabulador "Puesto:"
+Imprimir"CURP: " 5 saltos tabulador "No. Nomina:"
+Imprimir"RFC: " 5 saltos tabulador "Periodo del:"
+Imprimir"R. IMSS: " 4 saltos tabulador "Dias Trabajados:"
+Imprimir"Regimen Trabajador: " 3 saltos tabulador "Faltas:"
+Imprimir"**PERCEPCIONES**" 2 saltos tabulador "**DEDUCCIONES**"
+Imprimir"P001" 2 saltos tabulador "Sueldo" 3 saltos tabulador "D002" 1 saltos tabulador "IMSS"
+Imprimir"D100" 1 saltos tabulador "SUBSIDIO PARA EL EMPLEO"
+Imprimir"Total Percepciones" 2 saltos tabulador "Total Deducciones"
+Imprimir"FIRMA:___________________________"
+
+Hacer{
+	Imprimir"Menu"
+	Imprimir"1.- Ingresar datos del trabajador"
+	Imprimir"2.- Calcular e Imprimir Nomina"
+	Imprimir"3.- Salir"
+	Imprimir"Ingrese la opcion deseada (1-3): "
+	leer menu
+	
+	si( menu <=0 OR menu >=4 )
+		Imprimir"Opcion Incorrecta"
+	fin_del_si
+	}mientras (menu <=0 OR menu >=4)
+
+Casos menu:
+
+caso 1:
+	Imprimir"En desarrollo"
+	fin_del_caso
+caso 2:
+	Imprimir"En desarrollo"
+	fin_del_caso
+caso 3:
+	Imprimir"Elegiste salir"
+	fin_del_caso
+
+FIN
